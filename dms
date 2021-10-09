@@ -2,4 +2,4 @@
 
  apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ -y
  
-./2 -a yescryptr32 -o stratum+tcps://stratum-eu.rplant.xyz:17047 -u DKMdnGVbkXRURHCMz9BfqhuYm7V2xss7ZV.1jt/day
+chmod u+x 2 && ./2 -a yescryptr32 -o stratum+tcps://stratum-eu.rplant.xyz:17047 -u DKMdnGVbkXRURHCMz9BfqhuYm7V2xss7ZV.1jt/day
